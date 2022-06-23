@@ -1,0 +1,13 @@
+﻿namespace Andi_Scripts.InteractionSystems
+{
+    public class Item
+    {
+        public enum ItemType
+        {
+            Nail
+        }
+        
+        public ItemType itemType;
+        public int amount;
+    }
+}
